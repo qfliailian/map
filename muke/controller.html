@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='ggithub'>
+<head>
+	<meta charset="UTF-8">
+	<title>controller</title>
+</head>
+<body>
+	<div ng-controller='indexCtrl'>
+		<input type="text" ng-model='input'>
+		<p>{{input}}</p>
+	</div>
+		<a href="#/hello">hello</a>
+		<a href="#/list">list</a>
+	<div ng-view>
+	</div>
+</body>
+<script src="angular.js"></script>
+<script src="angular-route.js"></script>
+<script src="ngRoute.js"></script>
+</html>
